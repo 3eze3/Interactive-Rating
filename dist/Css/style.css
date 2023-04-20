@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+*::before,
+*::after {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center center;
+}
+
+li {
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+form,
+input,
+button,
+label {
+  font-family: inherit;
+  font-size: inherit;
+  hyphens: auto;
+  background-color: transparent;
+  color: inherit;
+  display: block;
+  appearance: none;
+}
+
+svg {
+  width: 100%;
+  display: block;
+  fill: currentColor;
+}
+
+@font-face {
+  font-family: overpass_regular;
+  src: url("../assets/static/Overpass-Regular.ttf");
+}
+@font-face {
+  font-family: overpass_bold;
+  src: url("../assets/static/Overpass-Bold.ttf");
+}
+body {
+  min-height: 100vh;
+  font-size: 100%;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+p,
+span {
+  font-style: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-family: overpass_bold;
+  font-size: 2.5em;
+  color: hsl(0deg, 0%, 100%);
+}
+
+p,
+span,
+button {
+  font-family: overpass_regular;
+}
+
+p {
+  font-size: 0.9375em;
+  color: hsl(217deg, 12%, 63%);
+  hyphens: auto;
+}
+
+span {
+  font-size: 1.05em;
+  color: hsl(216deg, 12%, 54%);
+}
+
+button {
+  font-size: 1.65em;
+  color: hsl(25deg, 97%, 53%);
+}
+
+/*# sourceMappingURL=style.css.map */
