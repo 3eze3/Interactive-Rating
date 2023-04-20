@@ -1,0 +1,49 @@
+@use "../abtract/variables" as colors_size;
+@font-face {
+  font-family: overpass_regular;
+  src: url("../assets/static/Overpass-Regular.ttf");
+}
+@font-face {
+  font-family: overpass_bold;
+  src: url("../assets/static/Overpass-Bold.ttf");
+}
+body {
+  min-height: 100vh;
+  font-size: 100%;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+p,
+span {
+  font-style: inherit;
+  text-decoration: none;
+}
+h1,
+h2 {
+  font-family: overpass_bold;
+  font-size: colors_size.$lg;
+  color: colors_size.$white;
+}
+p,
+span,
+button {
+  font-family: overpass_regular;
+}
+
+p {
+  font-size: colors_size.$sm;
+  color: colors_size.$light-grey;
+  hyphens: auto;
+}
+span {
+  font-size: colors_size.$md;
+  color: colors_size.$medium-grey;
+}
+button {
+  font-size: colors_size.$rm;
+  color: colors_size.$orange;
+}

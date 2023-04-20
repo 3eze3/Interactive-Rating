@@ -1,0 +1,18 @@
+@mixin flex($aling: center, $justify: center, $direction: column, $gap: 2rem) {
+  display: flex;
+  align-items: $aling;
+  justify-content: $justify;
+  direction: $direction;
+  gap: $gap;
+}
+
+@mixin break-media($break-point, $break) {
+  @media screen and ($break-point: $break) {
+    @content;
+  }
+}
+
+@mixin shadow-neo($eje, $color, $intensity) {
+  $ligth-color: mix($color, #fff, $intensity);
+  box-shadow: $eje $eje 2 * $eje $color, (-$eje) (-$eje) 2 * $eje $ligth-color;
+}
