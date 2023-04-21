@@ -1,0 +1,14 @@
+@use "../abtract/mixins" as layout;
+@use "../abtract/variables" as color_bg;
+.card {
+  max-width: 35rem;
+  min-height: 30rem;
+  border-radius: 2.5rem;
+  padding: 2rem;
+  background-color: color_bg.$dark-blue;
+  //
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
