@@ -1,0 +1,9 @@
+.card {
+  &__form {
+    outline: solid red 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
