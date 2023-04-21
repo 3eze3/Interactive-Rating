@@ -1,0 +1,8 @@
+@use "../abtract/variables" as color_bg;
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: color_bg.$very-dark-blue;
+  display: grid;
+  place-content: center;
+}
