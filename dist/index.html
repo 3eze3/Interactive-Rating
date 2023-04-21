@@ -12,26 +12,54 @@
     <title>Frontend Mentor | Interactive rating component</title>
   </head>
   <body>
-    <!-- Rating state start -->
-    <h1>How did we do?</h1>
-    <p>
-      Please let us know how we did with your support request. All feedback is
-      appreciated to help us improve our offering!
-    </p>
-    <!-- Inputs checkbox con spans 1 2 3 4 5 -->
-    <button>Submit</button>
-    <!-- Rating state end -->
-
-    <!-- Thank you state start -->
-
-    <h2>You selected</h2>
-    <!-- Add rating here -->
-    <span> out of 5 </span>
-    <p>
-      Thank you! We appreciate you taking the time to give a rating. If you ever
-      need more support, don’t hesitate to get in touch!
-    </p>
-
-    <!-- Thank you state end -->
+    <main class="main">
+      <section class="main__card card">
+        <div></div>
+        <div class="card__wrapper">
+          <h1 class="card__title">How did we do?</h1>
+          <p class="card__description">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+        <form action="#" class="card__form">
+          <fieldset class="">
+            <label>
+              1
+              <input type="checkbox" name="" />
+            </label>
+            <label>
+              2
+              <input type="checkbox" name="" />
+            </label>
+            <label>
+              3
+              <input type="checkbox" name="" />
+            </label>
+            <label>
+              4
+              <input type="checkbox" name="" />
+            </label>
+            <label>
+              5
+              <input type="checkbox" name="" />
+            </label>
+          </fieldset>
+          <button class="card__button" type="submit">Submit</button>
+        </form>
+        <!-- Inputs checkbox con spans 1 2 3 4 5 -->
+      </section>
+      <!-- <section class="main__card"> -->
+      <!-- Thank you state start -->
+      <!-- <h2 class="main__">You selected</h2> -->
+      <!-- Add rating here -->
+      <!-- <span class="main__"> out of 5 </span> -->
+      <!-- <p class="main__"> -->
+      <!-- Thank you! We appreciate you taking the time to give a rating. If you -->
+      <!-- ever need more support, don’t hesitate to get in touch! -->
+      <!-- </p> -->
+      <!-- Thank you state end -->
+      <!-- </section> -->
+    </main>
   </body>
 </html>
