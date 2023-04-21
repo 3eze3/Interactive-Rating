@@ -2,7 +2,6 @@
 @use "base/reset_tag";
 @use "base/fonts";
 // Componenst Cards
-// @use"components/"
-// @use"components/"
-// Layout Main
+@use "components/card";
+@use "components/form"; // Layout Main
 @use "layout/main";
