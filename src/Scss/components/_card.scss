@@ -1,14 +1,23 @@
 @use "../abtract/mixins" as layout;
 @use "../abtract/variables" as color_bg;
 .card {
-  max-width: 35rem;
-  min-height: 30rem;
+  max-width: 28rem;
+  min-height: 28rem;
   border-radius: 2.5rem;
   padding: 2rem;
   background-color: color_bg.$dark-blue;
-  //
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
+  // Box shadow
+  &__star {
+    width: fit-content;
+    padding: 1.15rem;
+    outline: solid red 1px;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  }
+  &__icon {
+    width: 1.35rem;
+  }
+  &__wrapper {
+    padding-right: 2rem;
+  }
 }
