@@ -1,9 +1,31 @@
+@use "../abtract/mixins" as layout;
+@use "../abtract/variables" as color_bg;
 .card {
   &__form {
-    outline: solid red 1px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    margin-top: 1rem;
+    padding-block: 1rem;
+  }
+  &__options {
+    width: 100%;
+    height: 4rem;
+    @include layout.flex($justify: space-between, $direction: row);
+    margin-bottom: 1.8rem;
+  }
+  &__option {
+    outline: solid black 1px;
+    width: 3.5rem;
+    height: 3.5rem;
+    @include layout.flex($direction: row);
+    border-radius: 50%;
+  }
+  // Funcionalidad y estilo cuando esta cheked
+  &__check {
+  }
+  &__button {
+    width: 100%;
+    background-color: color_bg.$orange;
+    color: color_bg.$white;
+    padding-block: 0.75rem;
+    border-radius: 1.5rem;
   }
 }
