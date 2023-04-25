@@ -27,17 +27,22 @@ h2 {
   font-family: overpass_bold;
   font-size: colors_size.$lg;
   color: colors_size.$white;
+  margin-bottom: 0.55rem;
 }
 p,
 span,
-button {
+button,
+label {
   font-family: overpass_regular;
 }
-
+label,
+p {
+  color: colors_size.$light-grey;
+}
 p {
   font-size: colors_size.$sm;
-  color: colors_size.$light-grey;
   hyphens: auto;
+  line-height: 1.5;
 }
 span {
   font-size: colors_size.$md;
@@ -46,4 +51,5 @@ span {
 button {
   font-size: colors_size.$rm;
   color: colors_size.$orange;
+  letter-spacing: 0.25em;
 }
