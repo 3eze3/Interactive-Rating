@@ -5,4 +5,28 @@
   background-color: color_bg.$very-dark-blue;
   display: grid;
   place-content: center;
+  &__wrapper {
+    width: 28rem;
+    height: 28rem;
+    background-color: color_bg.$dark-blue;
+    border-radius: 2.5rem;
+    position: relative;
+    outline: solid red 1px;
+  }
+  &__card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+  }
+  &__card:nth-child(2) {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: center;
+    transform: rotateY(180deg);
+  }
 }
