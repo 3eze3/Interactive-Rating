@@ -3,16 +3,15 @@
 .card {
   max-width: 28rem;
   min-height: 28rem;
-  border-radius: 2.5rem;
   padding: 2rem;
   background-color: color_bg.$dark-blue;
-  // Box shadow
+  border-radius: 2.5rem;
   &__star {
     width: fit-content;
-    padding: 1.15rem;
-    outline: solid red 1px;
-    border-radius: 50%;
     margin-bottom: 2rem;
+    padding: 1.15rem;
+    background-color: color_bg.$dark-blue-soft;
+    border-radius: 50%;
   }
   &__icon {
     width: 1.35rem;
