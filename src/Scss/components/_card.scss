@@ -1,11 +1,9 @@
 @use "../abtract/mixins" as layout;
 @use "../abtract/variables" as color_bg;
 .card {
-  max-width: 28rem;
-  min-height: 28rem;
-  padding: 2rem;
-  background-color: color_bg.$dark-blue;
-  border-radius: 2.5rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  padding-inline: 2rem;
   &__star {
     width: fit-content;
     margin-bottom: 2rem;
@@ -18,5 +16,9 @@
   }
   &__wrapper {
     padding-right: 2rem;
+  }
+  &__ilustatration {
+    width: 10rem;
+    margin-bottom: 1rem;
   }
 }
