@@ -16,9 +16,19 @@
   }
   &__wrapper {
     padding-right: 2rem;
+    &--back {
+      padding-right: 1.2rem;
+      padding-top: 1.25rem;
+    }
   }
   &__ilustatration {
     width: 10rem;
     margin-bottom: 1rem;
+  }
+  &__rating {
+    color: color_bg.$orange;
+    background-color: color_bg.$dark-blue-soft;
+    padding: 0.4rem 1.5rem;
+    border-radius: 0.8rem;
   }
 }
