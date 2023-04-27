@@ -11,9 +11,3 @@
     @content;
   }
 }
-//
-@mixin shadow-neo($eje, $color, $intensity) {
-  $ligth-color: mix($color, #121417bf, $intensity);
-  box-shadow: $eje $eje ($eje * 2) $color,
-    (-$eje) (-$eje) ($eje * 2) $ligth-color;
-}
