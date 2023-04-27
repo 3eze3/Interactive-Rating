@@ -1,5 +1,6 @@
 # Frontend Mentor - Interactive rating component
 
+[Site: https://fascinating-gumption-4e8224.netlify.app](https://fascinating-gumption-4e8224.netlify.app)
 ![Design preview for the Interactive rating component coding challenge](./dist/assets/images/desktop-preview.jpg)
 
 ## Welcome! 👋
